@@ -12,7 +12,7 @@ the question bank that would be used on the quiz.
 
 - When a question is answered incorrectly, its difficulty field is increased. This is done
 in such a way that the tree (which represents the quiz) is rebalanced to have easier questions 
-(with lower difficuties) on the left and harder questions (with higher difficulties) on the right.
+(with lower difficulties) on the left and harder questions (with higher difficulties) on the right.
 Not every question will be able to be answered on a particular quiz attempt, only a specific 
 path of questions will be answered depending on whether the user is answering the questions correctly or 
 incorrectly (going to left branches with the easier questions if the user answers a previous question 
