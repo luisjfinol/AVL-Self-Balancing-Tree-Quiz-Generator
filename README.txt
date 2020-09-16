@@ -1,17 +1,14 @@
 README
 
-Course: cs400
-Semester: Spring 2019
 Project name: A.V.L (Assisted Variable Learning) Quiz
 Team Members:
-1. Kevin O'Connor, Lec 002, kevinoco97@gmail.com
-2. Alex Kisch, Lec 002, akisch@wisc.edu
-3. Arshad Habib, Lec 002, ahabib3@wisc.edu
-4. Luis Finol, Lec 002, lfinol@wisc.edu
+1. Kevin O'Connor
+2. Alex Kisch
+3. Luis Finol
+4. Arshad Habib
 
-Notes or comments to the grader:
-
-- We followed our own design when making this project. We made an A.V.L structured quiz.
+- We made an AVL tree quiz generator that extracted information from JSON file uploads to create 
+the question bank that would be used on the quiz. 
 
 - When a question is answered incorrectly, its difficulty field is increased. This is done
 in such a way that the tree (which represents the quiz) is rebalanced to have easier questions 
